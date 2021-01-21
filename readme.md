@@ -1,4 +1,4 @@
-# Sistemas de envíos en Laravel 5.7 y Vue.js 2
+# Sistema de envíos en Laravel 5.7 y Vue.js 2
 Este proyecto se creo con el afan de aprender un framework de javascript de codigo abierto llamado vue.js
 Vue nos permite la construccion de interfaces de usuario y aplicaciones de una sola pagina.
 
