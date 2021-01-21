@@ -1,4 +1,4 @@
-# Sistemas de envios en Laravel 5.7 y Vue.js 2
+# Sistemas de envíos en Laravel 5.7 y Vue.js 2
 Este proyecto se creo con el afan de aprender un framework de javascript de codigo abierto llamado vue.js
 Vue nos permite la construccion de interfaces de usuario y aplicaciones de una sola pagina.
 
@@ -29,38 +29,40 @@ php  artisan serve
 --- Permite migrar las tablas de la base de datos.
 php artisan migrate 
 
---- Permite la creacion de la tablas.
-php artisan make:migration "Aqui el nombre de la tabla"  
+--- Permite la creación de la tabla.
+php artisan make:migration "Aquí el nombre de la tabla"  
 Ejemplo:
 php artisan make:migration create_ejemplo_table
 
---- Permite la creacion del modelo.
-php artisan make:model "Aqui el nombre de la tabla"
+--- Permite la creación del modelo.
+php artisan make:model "Aquí el nombre de la tabla"
 Ejemplo:
 php artisan make:model Ejemplo
 
 --- Permite crear el controlador.
-php artisan make:controller "Aqui el nombre del controlador"
+php artisan make:controller "Aquí el nombre del controlador"
 Ejemplo:
 php artisan make:controller EjemploController
 
---- Permite crear la carpeta con los archivos de autenticacion.
+--- Permite crear la carpeta con los archivos de autenticación.
 php artisan make:auth 
 
 --- Permite crear el archivo para filtrar peticiones HTTP.
-php artisan make:middleware "Aqui el nombre del Middleware" 
+php artisan make:middleware "Aquí el nombre del Middleware" 
 Ejemplo:
 php artisan make:middleware Administrador
 ```
-Cabe recalcar que al usarr --resource podemos crear todos los metodos dentro del controlador .
+Cabe recalcar que al usar --resource podemos crear todos los métodos dentro del controlador.
 ```
 php artisan make:controller EjemploController --resource 
 ```
 
 Si tenemos problemas con los datos o alguna dependencia es recomendable usar los siguientes comandos.
-Observaciones: Se borraran los datos ingresados en al base de datos.
+Observaciones: Se borrarán los datos ingresados en al base de datos.
 ```
 php artisan config:clear
 
 php artisan config:cache
 ```
+
+
