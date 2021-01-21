@@ -1,10 +1,12 @@
 # Sistema de envíos en Laravel 5.7 y Vue.js 2
-Este proyecto se creo con el afán de aprender un framework de javascript de codigo abierto llamado Vue.js.
-Vue nos permite la construccion de interfaces de usuario y aplicaciones de una sola pagina.
+Este proyecto se creo con el afán de aprender un framework de javascript de código abierto llamado Vue.js. 
+Vue nos permite la construcción de interfaces de usuario y aplicaciones de una sola página.
 
-Para el backend escogí Laravel 5.7 debido a que tiene una interaccion directa con el mismo Vue.
+Para el backend escogí Laravel 5.7 debido a que tiene una interacción directa con el mismo Vue.
 
-# Comandos de instalación composer y creacion de proyecto en Laravel 5.7
+Por último, para la base de datos escogí por la facilidad de uso que tiene xampp ya que incluye phpmyadmin ya que permite manejar la administración de MySQL a través de páginas web.
+
+# Comandos de instalación composer y creación de proyecto en Laravel 5.7
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 
